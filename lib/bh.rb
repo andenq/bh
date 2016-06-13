@@ -5,7 +5,7 @@ require 'active_support/core_ext'
 module Bh
   mattr_accessor :framework, :form_builder
 
-  self.form_builder = true
+  self.form_builder = false
 end
 
 # Always require every generic helper
